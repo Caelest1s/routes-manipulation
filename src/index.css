@@ -1,9 +1,16 @@
 :root {
+
+    /* GLOBAL CONFIG */
+    --rm-color-font-primary: #FFFFFF;
     --rm-color-bg-primary: #DADADA;
 
-    --rm-color-font-primary: #FFFFFF;
-    
     --rm-color-header-bg-primary: #FF2323;
+
+    /* COMPONENT */
+    --rm-color-bg-fieldElement-primary: #FFFFFF;
+
+    --rm-color-font-fieldElement-primary: #6F6F6F;
+
 }
 
 * {

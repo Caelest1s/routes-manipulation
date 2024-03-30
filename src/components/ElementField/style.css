@@ -1,0 +1,15 @@
+.rm-container-elementfield {
+    margin: 30px auto;
+    width: 960px;
+    height: 200px;
+    background-color: var(--rm-color-bg-fieldElement-primary);
+    border: 1px solid var(--rm-color-bg-fieldElement-primary);
+    border-radius: 6px;
+}
+
+.rm-container-elementfield h1 {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+    color: var(--rm-color-font-fieldElement-primary);
+}
