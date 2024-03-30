@@ -1,14 +1,10 @@
-import ButtonPrimary from "./components/ButtonPrimary";
-import ElementField from "./components/ElementField";
-import Header from "./components/Header";
+import PageSignUp from "./routes/PageSignUp";
 
 export default function App() {
 
   return (
     <>
-      <Header />
-      <ElementField />
-      <ButtonPrimary text="Ver promoção"/>
+      <PageSignUp />
     </>
   )
 }
