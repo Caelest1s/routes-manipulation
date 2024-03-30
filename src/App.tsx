@@ -1,6 +1,12 @@
+import ButtonPrimary from "./components/ButtonPrimary";
+import Header from "./components/Header";
+
 export default function App() {
 
   return (
-    <h1>Olá</h1>
+    <>
+      <Header />
+      <ButtonPrimary text="Ver promoção"/>
+    </>
   )
 }

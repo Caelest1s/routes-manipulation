@@ -1,0 +1,13 @@
+.rm-btn-primary {
+    width: 150px;
+    height: 45px;
+    color: var(--rm-color-font-primary);
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
