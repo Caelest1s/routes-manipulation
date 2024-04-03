@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import ButtonPrimary from "../../../components/ButtonPrimary";
 import ElementField from "../../../components/ElementField";
 
-export default function PageSignUp() {
+export default function SignUp() {
     return (
         <>
             <ElementField text={"Página de inscrição"} />

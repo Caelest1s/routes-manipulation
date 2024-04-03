@@ -1,8 +1,8 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import ClientHome from "./routes/ClientHome";
-import PageInitial from "./routes/ClientHome/PageInitial";
-import PagePromotion from "./routes/ClientHome/PagePromotion";
-import PageSignUp from "./routes/ClientHome/PageSignUp";
+import Promotion from "./routes/ClientHome/Promotion";
+import SignUp from "./routes/ClientHome/SignUp";
+import Welcome from "./routes/ClientHome/Welcome";
 
 export default function App() {
 
@@ -11,14 +11,13 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ClientHome />} >
-            <Route index element={<PageInitial />} />
-            <Route path="initial" element={<PageInitial />} />
-            <Route path="promotion" element={<PagePromotion />} />
-            <Route path="signup" element={<PageSignUp />} />
+            <Route index element={<Welcome />} />
+            <Route path="initial" element={<Welcome />} />
+            <Route path="promotion" element={<Promotion />} />
+            <Route path="signup" element={<SignUp />} />
           </Route>
 
           <Route path="*" element={<Navigate to="/" />} />
-
         </Routes>
       </BrowserRouter>
     </>

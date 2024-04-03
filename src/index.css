@@ -26,7 +26,8 @@ header {
     display: flex;
 }
 
-html, body {
+html,
+body {
     background-color: var(--rm-color-bg-primary);
 }
 
@@ -35,7 +36,10 @@ nav {
     max-width: 1280px;
     height: 100%;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
