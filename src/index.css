@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 :root {
 
     /* GLOBAL CONFIG */
@@ -17,6 +20,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter";
 }
 
 header {
@@ -40,6 +44,7 @@ nav {
     align-items: center;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
+    color: unset;
 }
