@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import ClientHome from "./routes/ClientHome";
 import Promotion from "./routes/ClientHome/Promotion";
 import SignUp from "./routes/ClientHome/SignUp";
+import Subscription from "./routes/ClientHome/Subscription";
 import Welcome from "./routes/ClientHome/Welcome";
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
           </Route>
 
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="subscription" element={<Subscription />} />
         </Routes>
       </BrowserRouter>
     </>

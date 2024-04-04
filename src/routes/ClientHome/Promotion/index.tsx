@@ -6,7 +6,7 @@ export default function Promotion() {
     return (
         <>
             <ElementField text={"Página de promoção"} />
-            <Link to="/signup">
+            <Link to="/subscription">
                 <ButtonPrimary text={"Quero participar"} />
             </Link>
         </>
